@@ -1,0 +1,25 @@
+{
+  "name": "signup-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation for the Authorized Partner signup flow (Page Object Model, JavaScript).",
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "PWDEBUG=1 playwright test",
+    "report": "playwright show-report reports/html",
+    "trace": "playwright show-trace",
+    "codegen": "playwright codegen https://authorized-partner.vercel.app/"
+  },
+  "keywords": ["playwright","automation","qa","page-object-model","signup"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "dotenv": "^16.4.5",
+    "imapflow": "^1.0.164",
+    "mailparser": "^3.7.1"
+  }
+}
