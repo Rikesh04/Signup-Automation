@@ -89,9 +89,6 @@ npx playwright test
 # headed — watch the browser drive itself
 npx playwright test --headed
 
-# slowed down (good for demos) — PowerShell
-$env:SLOWMO=1000; npx playwright test --headed
-```
 
 ### View the report
 
